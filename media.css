@@ -1,0 +1,118 @@
+@media(max-width: 768px){
+    .project .projects {
+        flex-direction: column;
+    }
+
+    .project-card {
+        max-width: 100%;
+    }
+    .project .intro {
+        margin-top: 0em;
+    }
+    .contact-form{
+        min-width: 50vw;
+    }
+    .skills{ /*style the text*/
+        width: 350px;
+        margin: 60px auto;
+        color: #fff;
+    }
+}
+@media(max-width: 480px){
+    
+    .foot{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+    .landing h1{
+        font-size: 1.8rem;
+    }
+    .msg{
+        width: 100%;
+    }
+    .contact{
+        margin-top: 15%;
+    }
+    .left{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .intro h1{
+        font-size: 1.8rem;
+    }
+    .intro p{
+        font-size: 0.7rem;
+    }
+    .myintro h1{
+        font-size: 1rem;
+    }
+    .myintro p{
+        font-size: 0.8rem;
+        padding: 2% 10% 10% 10%;
+    }
+    .abtcards h1{
+        font-size: 1.2rem;
+    }
+    .abtcards p, strong{
+        font-size: 1rem;
+    }
+    .contact h1{
+        font-size: 1.8rem;
+    }
+    .contact-form{
+        min-width: 80vw;
+    }
+    .skills{ /*style the text*/
+        width: 280px;
+        margin: 60px auto;
+        color: #fff;
+    }
+}
+@media(max-width: 320px){
+    .landing h2{
+        font-size: 1.2rem;
+    }
+    .landing h1{
+        font-size: 1.5rem;
+    }
+    .intro p{
+        font-size: 0.8rem;
+    }
+    .intro h1{
+        font-size: 1.5rem;
+    }
+    .myintro h1{
+        font-size: 1.2rem;
+    }
+    .myintro p{
+        font-size: 0.8rem;
+        padding: 2% 5% 10% 5%;
+    }
+    .abtcards h1{
+        font-size: 1.2rem;
+    }
+    .abtcards p, strong{
+        font-size: 1rem;
+    }
+    .contact h1{
+        font-size: 1.5rem;
+    }
+    .left{
+        gap: 5rem;
+    }
+    .foot p, a, strong,i{
+        font-size: 0.8rem;
+    }
+    .copy{
+        font-size: 0.6rem;
+    }
+    .contact-form{
+        min-width: 80vw;
+    }
+    .skills{ /*style the text*/
+        width: 200px;
+        margin: 60px auto;
+        color: #fff;
+    }
+}

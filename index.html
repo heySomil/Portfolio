@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header container">
+        <a href="#landing" class="logo">Somil.</a>
+        <ul class="nav">
+            <li><a href="#landing" class="btn">Home</a></li>
+            <li><a href="#about" class="btn">About</a></li>
+            <li><a href="#proj" class="btn">Projects</a></li>
+            <li><a href="#contact" class="btn" >Contact</a></li>
+        </ul>
+        <i class="fa fa-reorder" id="menu" onclick="menufunc()"></i>
+    </header>
+    <main>
+        <section class="landing container" id="landing">
+            <img src="/me.jpg" class="me">
+            <h2>I'm <span>Somil Yadav</span></h2>
+            <h1><span></span></h1>
+            <p>Software Engineer | Web Developer, adept at crafting captivating online experiences. With an eye for
+                design and expertise in coding, they bring websites to life with seamless functionality and creativity.
+            </p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/somil-yadav/" target="_blank"><i
+                        class="fa fa-linkedin-square"></i></a>
+                <a href="https://www.instagram.com/somil_yadav_/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="mailto:somil.yadav2403@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="intro">
+                <p>Get to know more</p>
+                <h1>ABOUT ME</h1>
+            </div>
+            <div class="myintro">
+                <h1>Hi I'm Somil nice to meet you</h1>
+                <p>Software Developer currently graduating from Bennett University while I am studying
+                    I tend to gain detailed understanding of Software Development. Writing efficient
+                    code is the skill I gained in the process my project development experience. I have
+                    led many teams in my graduation journey till now which gives me ability to work in a
+                    collaborative environment.</p>
+            </div>
+            <div class="abtcards">
+                <div class="exp">
+                    <i class="fa fa-vcard-o"></i>
+                    <h1>Experience</h1>
+                    <p>Media Co-Head</p>
+                    <p><strong>Bennovate 2.0</strong></p>
+                    <p>&</p>
+                    <p>Head of Design</p>
+                    <p><strong>IEEE Student Chapter</strong></p>
+                </div>
+                <div class="exp">
+                    <i class="fa fa-graduation-cap"></i>
+                    <h1>Education</h1>
+                    <p>Bachelors of Technology <br> CSE</p>
+                    <p> CGPA - 8.52</p>
+                    <p><strong>Bennett University</strong></p>
+                    <p>2021-2025</p>
+                </div>
+                <!-- <div class="skills">
+                    <i class="fa fa-black-tie"></i>
+                    <h1>Skills</h1>
+                    <p>DSA, Web Development, DBMS</p>
+                    <p><strong>Languages & Frameworks</strong></p>
+                    <p>Python, C++, HTML, CSS, React.js, Node.js, Solidity, SQL, Javascript
+                </div> -->
+                <div class="skills">  <!-- create a div -->
+                    <h1>My Skills</h1> <!-- heading -->
+                    <li>
+                        <h3>HTML/CSS</h3><span class="bar"><span class="html"></span></span> <!-- skill bar 1 -->
+                    </li>
+                
+                    <li>
+                        <h3>JS Frameworks</h3><span class="bar"><span class="js"></span></span><!-- skill bar 2 -->
+                    </li>
+                
+                    <li>
+                        <h3>C++, Python</h3><span class="bar"><span class="Lang"></span></span><!-- skill bar 3 -->
+                    </li>
+                
+                    <li>
+                        <h3>Data Structures & Algorithms</h3><span class="bar"><span class="dsa"></span></span><!-- skill bar 4 -->
+                    </li>
+                </div>
+            </div>
+            <!-- --------------------------------------------------- -->
+            <!-- Add this section after the 'Experience' section -->
+            <section class="project" id="proj">
+                <div class="intro">
+                    <p>Explore My Work</p>
+                    <h1>PROJECTS</h1>
+                </div>
+                <div class="projects">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <h1>Dharti Darshan</h1>
+                        <a href="https://github.com/heySomil/Dharti-Darshan-Geo-Terrain_Eye" target="_blank" class="project-link">
+                            <div class="project-image">
+                                <img src="proj1.jpg" alt="Project 1 Image">
+                            </div>
+                        </a>
+                        <p>A Python-based Machine Learning Project. It is a platform that checks whether the terrain is suitable for Agriculture. Dharti Darsham is trained with over 10 thousand satellite images from Eurosat.</p>
+                        <!-- Add more details or links as needed -->
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <h1>Brain Storm</h1>
+                        <a href="https://github.com/heySomil/Brain-Storm" target="_blank" class="project-link">
+                            <div class="project-image">
+                                <img src="Proj2.jpeg" alt="Project 2 Image">
+                            </div>
+                        </a>
+                        <p> A python based Machine Learning project.
+                            It is a Machine Learning based platform which predicts the chance of you getting a brain stroke.
+                            It is trained from a dataset with over 5 thousand individual entries.
+                            </p>
+                        <!-- Add more details or links as needed -->
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <h1>Netflix Clone</h1>
+                        <a href="https://github.com/heySomil/Netflix-Clone" target="_blank" class="project-link">
+                            <div class="project-image">
+                                <img src="proj3.jpg" alt="Project 3 Image">
+                            </div>
+                        </a>
+                        <p>Experience the ultimate streaming entertainment with our Netflix clone made with HTML, CSS & Javascript. Enjoy a vast library of movies and TV shows, and a user-friendly interface for an immersive viewing experience.</p>
+                        <!-- Add more details or links as needed -->
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- --------------------------------------------------- -->
+
+        </section>
+        <section class="contact" id="contact">
+            <h1><i class="fa fa-quote-left"></i>
+                Contact Me <i class="fa fa-quote-right"></i>
+            </h1>
+            <div class="contact-form-container" id="contactFormContainer">
+                <div class="contact-form">
+                    <span class="close-icon" onclick="toggleContactForm()">×</span>
+                    <h2>Contact Me</h2>
+                    <form  action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="50b59b25-515e-45a4-bb40-f3766c05c7bd">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="phone">Phone No.:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+        
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="left">
+                <div class="email">
+                    <button class="bt" onclick="toggleContactForm()">
+                        Message Me <i
+                                class="fa fa-edit"></i></a>
+
+                    </button>
+                </div>
+                <div class="cv">
+                    <button class="bt">
+                        <a href="/Somil Yadav's Resume .pdf" download="Somil Yadav's CV" class="button-content">Download
+                            My CV <i class="fa fa-handshake-o"></i></a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot container">
+            <div class="msg">
+                <p><strong>A Message</strong></p>
+                <p>Thank you for visiting my website. Here, I showcase my passion for creativity and innovation. I
+                    believe in pushing the boundaries of design and technology to create memorable and impactful
+                    experiences.</p>
+            </div>
+            <div class="ct">
+                <p><strong>Active On</strong></p>
+                <a href="https://www.linkedin.com/in/somil-yadav/" target="_blank"><i class="fa fa-linkedin-square"></i>
+                    LinkedIn</a>
+                <a href="mailto:somil.yadav2403@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Gmail</a>
+                <a href="https://www.instagram.com/somil_yadav_/" target="_blank"><i class="fa fa-instagram"></i>
+                    Instagram</a>
+            </div>
+
+            <div class="address">
+                <p><strong>Address</strong></p>
+                <p>
+                    Noida, Uttar Pradesh
+                </p>
+                <p>
+                    201301
+                </p>
+                <p>
+                    India
+                </p>
+            </div>
+        </div>
+        <div class="copy">
+            &copy Somil Yadav 2023
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
