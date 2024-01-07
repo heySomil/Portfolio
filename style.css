@@ -418,7 +418,7 @@ footer{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding: 3%;
     margin: 2% 2%;
-    max-width: calc(33.33% - 4%); /* Adjust width based on your preference */
+    max-width: calc(33.33% - 4%);
     text-align: left;
 }
 
@@ -436,14 +436,14 @@ footer{
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 10px;
-    max-height: 200px; /* Adjust the maximum height as per your design */
+    max-height: 200px; 
 }
 
 .project-card img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    object-fit: cover; /* This ensures the image covers the entire container */
+    object-fit: cover;
 }
 .project-card .project-link {
     display: block;
@@ -458,17 +458,17 @@ footer{
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 10px;
-    max-height: 200px; /* Adjust the maximum height as per your design */
+    max-height: 200px; 
 }
 
 .project-card img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    object-fit: cover; /* This ensures the image covers the entire container */
+    object-fit: cover; 
 }
 
-/* Your existing styles */
+
 
 .contact-form-container {
     display: none;
@@ -524,17 +524,17 @@ textarea {
     border-radius: 30px;
     cursor: pointer;
 }
-.skills{ /*style the text*/
+.skills{ 
 	width: 500px;
 	margin: 60px auto;
 	color: #fff;
 }
 
-.skills li{ /*set margin of li*/
+.skills li{ 
 	margin: 20px 0;
 }
 
-.bar{ /*style the bar*/
+.bar{ 
 	background-color: var(--maincolor);
 	display: block;
 	height: 5px;
@@ -544,33 +544,33 @@ textarea {
 	box-shadow: 0 0 10px #2187e7b3;
 }
 
-.bar span{ /*style the span tag*/
+.bar span{ 
 	height: 5px;
 	float: left;
 	background-color: var(--bg);
 }
 
-.html{ /*set skills and animation of html*/
+.html{ 
 	width: 95%;
 	animation: html 2s;
 }
 
-.js{ /*set skills and animation of css*/
+.js{
 	width: 85%;
 	animation: js 2s;
 }
 
-.Lang{ /*set skills and animation of javascript*/
+.Lang{ 
 	width: 70%;
 	animation: lang 2s;
 }
 
-.dsa{ /*set skills and animation of jquery*/
+.dsa{ 
 	width: 80%;
 	animation: dsa 2s;
 }
 
-@keyframes html{ /*animate html skills*/
+@keyframes html{ 
 	0%{
 		width: 0%;
 	}
@@ -580,7 +580,7 @@ textarea {
 	}
 }
 
-@keyframes js{ /*animate css skills*/
+@keyframes js{ 
 	0%{
 		width: 0%;
 	}
@@ -590,7 +590,7 @@ textarea {
 	}
 }
 
-@keyframes lang{ /*animate javascript skills*/
+@keyframes lang{ 
 	0%{
 		width: 0%;
 	}
@@ -600,7 +600,7 @@ textarea {
 	}
 }
 
-@keyframes dsa{ /*animate jquery skills*/
+@keyframes dsa{ 
 	0%{
 		width: 0%;
 	}
@@ -609,4 +609,4 @@ textarea {
 		width: 80%;
 	}
 }
-/* Add more styles as needed */
+

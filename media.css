@@ -12,7 +12,7 @@
     .contact-form{
         min-width: 50vw;
     }
-    .skills{ /*style the text*/
+    .skills{ 
         width: 350px;
         margin: 60px auto;
         color: #fff;
@@ -63,7 +63,7 @@
     .contact-form{
         min-width: 80vw;
     }
-    .skills{ /*style the text*/
+    .skills{ 
         width: 280px;
         margin: 60px auto;
         color: #fff;
@@ -110,7 +110,7 @@
     .contact-form{
         min-width: 80vw;
     }
-    .skills{ /*style the text*/
+    .skills{ 
         width: 200px;
         margin: 60px auto;
         color: #fff;
